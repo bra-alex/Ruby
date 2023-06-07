@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 num_arr = [2, 4, 6, 1, 1] # array of numbers
-# duplicate_num_arr = [2, 4, 6, 1, 1] # array of numbers
+duplicate_num_arr = [2, 4, 6, 1, 1] # array of numbers
 mixed_arr = [3, 'one', { num: 58 }, :hi] # array of mixed elements
 words_arr = %w[hi hello halo helium hydrogen hydrate hydra] # array of words
 symbols_arr = %i[hi hello him her hers his hurt hate hot hair] # array of symbols
@@ -13,7 +13,8 @@ p num_arr.take(3) # return the first n elements of an array
 p words_arr[2, 4] # return n elements including element at specified index
 p symbols_arr[3..5] # return the elements within the specified range
 p words_arr.drop(3) # return the elements after n elements have been dropped
-p key_value_arr[1..-3] # return the elements within the specified range
+p symbols_arr.last(4) # return the last n elements in the array
+p duplicate_num_arr.first(2) # return the first n elements in the array
 
 # get length of array
 p num_arr.size
