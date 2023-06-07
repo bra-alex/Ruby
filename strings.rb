@@ -33,5 +33,5 @@ puts message.downcase.include?('h')
 # Check if a string contains a substring(can take regex or string)
 puts message =~ /He/
 
-# using [-1] on any string automatically gives you the last letter of the string
+# using negative index on any string allows you to traverse the string in a reverse order
 puts name[-1]
