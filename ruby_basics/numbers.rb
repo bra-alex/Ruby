@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 # integers
 long_number = 1_000_000
 short_number = 20
