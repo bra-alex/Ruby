@@ -76,7 +76,7 @@ names = ["alex", "rita"]
 
 # to use it as a callback to an in built function, precede the proc name with an &
 
-names.each &print_capitalized_names
+# names.each &print_capitalized_names
 
 # use inbuilt methods
 
