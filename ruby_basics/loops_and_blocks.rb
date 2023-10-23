@@ -95,5 +95,6 @@ hello_world = -> { puts "hello world " }
 hello_world.call
 
 # With parameters
+
 hello_world = ->(name) { puts "hello#{name}" }
 hello_world.call("World")
